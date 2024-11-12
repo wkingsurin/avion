@@ -13,17 +13,17 @@ html {
 .double-block {
     display: flex;
 }
-.block:nth-child(1) {
+.double-block .block:nth-child(1) {
     padding: 60px;
 }
-.block {
+.double-block .block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     background-color: var(--dark-primary);
 }
-.top {
+.double-top {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -39,12 +39,17 @@ html {
     color: white;
     background: rgba(255, 255, 255, .15);
 }
-.dobule-para {
+.double-para {
     font-size: 18px;
     line-height: 150%;
     color: white;
 }
 
+.image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
 .image img {
     width: 100%;
     height: 100%;

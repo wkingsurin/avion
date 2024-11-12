@@ -7,12 +7,12 @@
 }
 .hero-block {
 }
-.hero .double-block {
+.hero .block {
 }
 .hero .block:nth-child(1) {
     flex: 1 1 59%;
 }
-.hero .block:nth-child(2) {
+.hero .double-block:nth-child(2) {
 }
 .hero .double-title {
 }

@@ -1,0 +1,50 @@
+.features {
+}
+.features-section {
+    position: relative;
+    height: 603px;
+}
+.features .container {
+    height: 100%;
+}
+.features-block {
+    display: flex;
+    height: 100%;
+}
+.features-block_absolute {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    z-index: -1;
+}
+.features-block_absolute .block {
+    height: 100%;
+}
+.features .block {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 50%;
+    background-color: var(--main-white);
+}
+.features .description {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+
+    padding-right: 100px;
+}
+.features .headline_l3 {
+}
+.features .para {
+}
+.features .button {
+    background-color: var(--light-gray);
+    color: inherit;
+}
+.features .image {
+}
