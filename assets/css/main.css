@@ -1,7 +1,9 @@
 @import url('./sections/hero-section.css');
+@import url('./sections/advantages-section.css');
 
 .main {
 }
+
 section {
     padding: 60px 0;
 }

@@ -1,0 +1,38 @@
+.advantages {
+}
+.advantages-section {
+}
+
+.container {
+}
+.advantages-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+}
+.headline {
+}
+.headline_l3 {
+}
+.cards {
+    display: flex;
+    gap: 60px;
+}
+.item {
+    flex: 1 1 25%;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+
+    margin-bottom: 16px;
+}
+.subtitle {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.para {
+    line-height: 150%;
+}
