@@ -1,0 +1,62 @@
+.header {}
+
+.container {}
+
+.header-container {
+    max-width: 1384px;
+}
+
+.header-block:nth-child(1) {
+    height: 70px;
+}
+
+.header-block {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.header-block:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.icon {
+    display: flex;
+
+    width: 16px;
+    height: 16px;
+}
+
+.logo {
+    position: absolute;
+    left: calc(50% - 58.58px / 2);
+
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--main-black);
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+.header-block:nth-child(2) {
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+    gap: 44px;
+}
+
+.link {
+    color: #726E8D;
+}
