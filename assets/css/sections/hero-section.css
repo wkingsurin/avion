@@ -3,22 +3,22 @@
 .hero-section {
 }
 
-.container {
+.hero .container {
 }
 .hero-block {
 }
-.double-block {
+.hero .double-block {
 }
 .hero .block:nth-child(1) {
     flex: 1 1 59%;
 }
 .hero .block:nth-child(2) {
 }
-.double-title {
+.hero .double-title {
 }
-.button {
+.hero .button {
 }
-.dobule-para {
+.hero .dobule-para {
 }
-.image {
+.hero .image {
 }

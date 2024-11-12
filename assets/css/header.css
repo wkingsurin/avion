@@ -1,6 +1,6 @@
 .header {}
 
-.container {}
+.header .container {}
 
 .header-container {
     max-width: 1384px;
@@ -25,10 +25,10 @@
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.icon {
+.header .icon {
 }
 
-.logo {
+.header .logo {
     position: absolute;
     left: calc(50% - 58.58px / 2);
 
@@ -37,7 +37,7 @@
     color: var(--main-black);
 }
 
-.icons {
+.header .icons {
     display: flex;
     gap: 16px;
 }
@@ -46,13 +46,13 @@
     justify-content: center;
 }
 
-.nav {
+.header .nav {
     display: flex;
     justify-content: center;
 
     gap: 44px;
 }
 
-.link {
+.header .link {
     color: #726E8D;
 }
