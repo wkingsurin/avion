@@ -1,0 +1,87 @@
+.footer {
+    padding-top: 60px;
+    background-color: var(--dark-primary);
+    color: var(--main-white);
+}
+
+.footer .container {
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block:not(:last-child) {
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--primary);
+}
+.footer-block:nth-child(2) {
+    justify-content: space-between;
+
+    padding: 22px 0;
+}
+.footer-block:nth-child(1) .block:nth-child(1) {
+    padding-right: 100px;
+}
+.footer-block:nth-child(1) .block:nth-child(2) {
+    gap: 16px;
+}
+.footer .block {
+    flex: 1 1 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+.footer .lists {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer .list > *:first-child {
+    font-family: 'Clash Display';
+}
+.footer .list-item {
+}
+.footer .link {
+    font-size: 14px;
+    color: inherit;
+}
+.footer .title {
+    font-family: 'Clash Display';
+}
+.footer .text {
+    font-size: 14px;
+}
+.footer .input-block {
+    display: flex;
+    width: 100%;
+}
+.footer .input {
+    width: calc(100% - 118px);
+    padding: 17px 32px;
+    background-color: rgba(255, 255, 255, .15);
+}
+.footer .input::placeholder {
+    color: white;
+}
+.footer .button {
+    min-width: 118px;
+    background-color: var(--main-white);
+    color: var(--dark-primary);
+}
+.footer .socials {
+    display: flex;
+
+    gap: 24px;
+}
+.footer .icon {
+    width: 24px;
+    height: 24px;
+}
+.footer .icon path {
+    fill: var(--main-white);
+}
