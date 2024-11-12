@@ -1,0 +1,49 @@
+.subscription {
+    background-color: var(--light-gray);
+}
+.subscription-section {
+}
+
+.container {
+}
+
+.subscription-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 72px;
+
+    padding: 60px;
+    background-color: var(--main-white);
+}
+.subscription .title-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 16px;
+
+    text-align: center;
+}
+.subscription .headline_l1 {
+}
+.subscription .subtitle {
+    line-height: 150%;
+    max-width: 470px;
+}
+.subscription .input-block {
+    display: flex;
+}
+.subscription .input {
+    min-width: 354px;
+    padding: 17px 32px;
+    background-color: var(--light-gray);
+}
+.subscription .input::placeholder {
+    color: rgba(42, 37, 75, .2);
+}
+.subscription .button {
+    min-width: 118px;
+    background-color: var(--dark-primary);
+}
