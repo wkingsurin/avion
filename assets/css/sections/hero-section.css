@@ -251,3 +251,57 @@
 .product-hero .hero-block_absolute .block {
     flex: 1 1 50%;
 }
+
+/* product-hero_v2 */
+.product-hero_v2 {
+    background-color: var(--light-gray);
+}
+.product-hero_v2 .hero-block {
+    gap: 65px;
+}
+.product-hero_v2 .hero-block .block {
+    padding-left: unset;
+}
+.product-hero_v2 .image {
+    max-height: 680px;
+}
+.product-hero_v2 .container .text-block {
+    color: var(--dark-primary)
+}
+.product-hero_v2 .table .para_medium {
+    color: var(--dark-primary);
+}
+.product-hero_v2 .container .price {
+    color: var(--dark-primary);
+}
+.product-hero_v2 .container .amount-block {
+    background-color: var(--main-white);
+}
+.product-hero_v2 .buy-block {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 48px;
+}
+.product-hero_v2 .buy-block .block {
+    align-items: start;
+    flex-direction: column;
+
+    height: unset;
+}
+.product-hero_v2 .buy-block .button {
+    min-height: 46px;
+    background-color: var(--dark-primary);
+}
+.product-hero_v2 .buttons {
+    display: flex;
+    gap: 16px;
+}
+.product-hero_v2 .buttons > *:last-child {
+    color: var(--dark-primary);
+    background-color: var(--main-white);
+}
+.product-hero_v2 .amount-block .button {
+    background-color: var(--main-white);
+}
