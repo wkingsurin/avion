@@ -85,3 +85,34 @@
 .footer .icon path {
     fill: var(--main-white);
 }
+
+/* product-footer */
+.product-footer {}
+.product-footer .block:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+
+    gap: 65px;
+}
+
+.product-footer .contacts {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 16px;
+}
+.product-footer .socials-block {
+    display: flex;
+    flex-direction: column;
+
+    gap: 22px;
+}
+.product-footer .contacts .logo {
+}
+.product-footer .contacts .content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}

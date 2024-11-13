@@ -91,3 +91,163 @@
     object-position: top;
     object-fit: cover;
 }
+
+/* product-hero */
+.product-hero {
+    height: calc(100vh - 120px);
+}
+
+.product-hero .container .hero-block {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 90px 0;
+}
+.product-hero .container .block {
+    flex: 0 1 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 50px;
+    padding-left: 100px;
+}
+.product-hero .container .title-block {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 13px;
+}
+.product-hero .container .headline {
+}
+.product-hero .container .headline_l1 {
+}
+.product-hero .container .price {
+    font-size: 24px;
+    color: #12131A;
+}
+.product-hero .container .description {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.product-hero .description > *:first-child {
+    margin-bottom: 16px;
+}
+.product-hero .container .title {
+    font-family: 'Clash Display';
+    font-size: 16px;
+}
+.product-hero .container .text-block {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    color: #505977;
+}
+.product-hero .text-block .para_medium {
+    max-width: 498px;
+}
+.product-hero .container .para {
+}
+.product-hero .container .list {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+    margin-left: 25px;
+}
+.product-hero .container .item {
+    list-style:disc;
+}
+.product-hero .container .table {
+    display: flex;
+
+    margin-top: 12px;
+}
+.product-hero .table tbody {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 12px;
+}
+.product-hero .table tr, td {
+    display: flex;
+    gap: 58px;
+}
+.product-hero .table .para_small {
+    font-family: 'Clash Display';
+    font-weight: 400;
+}
+.product-hero .table .para_medium {
+    color: #505977;
+}
+.product-hero .container .buy-block {
+    display: flex;
+    justify-content: space-between;
+}
+.product-hero .buy-block .block {
+    flex: unset;
+    align-items: center;
+    flex-direction: row;
+    
+    height: 46px;
+
+    gap: 22px;
+
+    padding-left: 0;
+} 
+.product-hero .buy-block .para_medium {
+    font-family: 'Clash Display';
+}
+.product-hero .container .amount-block {
+    display: flex;
+    height: 100%;
+
+    background-color: var(--light-gray);
+}
+.product-hero .buy-block .button {
+    min-width: 143px;
+    min-height: 56px;
+    background-color: var(--dark-primary);
+}
+.product-hero .amount-block .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: unset;
+    min-width: 40px;
+    
+    padding: unset;
+
+    color: var(--border-dark);
+    background-color: var(--light-gray);
+}
+.product-hero .buy-block .plus {
+}
+.product-hero .buy-block .amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 40px;
+}
+
+.product-hero .hero-block_absolute {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.product-hero .hero-block_absolute .block {
+    flex: 1 1 50%;
+}
