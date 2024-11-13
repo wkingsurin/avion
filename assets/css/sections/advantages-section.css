@@ -36,3 +36,13 @@
 .advantages .para {
     line-height: 150%;
 }
+
+/* advantage_v2 */
+
+.advantages_v2 .cards {
+    gap: 20px;
+}
+.advantages_v2 .item {
+    padding: 48px;
+    background-color: var(--light-gray);
+}

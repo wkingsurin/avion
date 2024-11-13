@@ -48,3 +48,32 @@
 }
 .features .image {
 }
+
+/* features_v2 */
+
+.features_v2 {
+    height: unset;
+}
+.features_v2 .features-block {
+    gap: 16px;
+}
+.features_v2 .block {
+}
+.features_v2 .block:nth-child(1) {
+    padding: 64px;
+    background-color: var(--dark-primary);
+}
+.features_v2 .description {
+    color: var(--main-white);
+}
+.features_v2 .headline_l2 {
+    font-family: 'Clash Display';
+}
+.features_v2 .para {
+}
+.features_v2 .button {
+    color: var(--main-white);
+    background-color: rgba(255, 255, 255, .15);
+}
+.features_v2 .image {
+}

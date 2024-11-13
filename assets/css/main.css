@@ -7,6 +7,6 @@
 .main {
 }
 
-section {
+section .container > *:first-child {
     padding: 60px 0;
 }

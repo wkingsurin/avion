@@ -79,6 +79,19 @@ html {
     font-size: 14px;
 }
 
+.para {
+    line-height: 150%;
+}
+
+.para_small {
+    font-size: 14px;
+}
+.para_medium {
+    font-size: 16px;
+}
+.para_large {
+    font-size: 18px;
+}
 
 .icon {
     display: flex;
