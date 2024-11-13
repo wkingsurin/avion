@@ -305,3 +305,18 @@
 .product-hero_v2 .amount-block .button {
     background-color: var(--main-white);
 }
+
+/* about-hero */
+.about-hero {
+    height: unset;
+}
+.about-hero .hero-block {
+    display: flex;
+    justify-content: center;
+
+    padding: 70px 0 !important;
+}
+.about-hero .block {
+    max-width: 704px;
+    text-align: center;
+}

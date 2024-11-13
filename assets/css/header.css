@@ -20,9 +20,19 @@
     padding: 20px 0;
     box-sizing: border-box;
 }
+.header-block_gray {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-gray);
+}
 
 .header-block:not(:last-child) {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.about-header .header-block {
+}
+.about-header .header-block:not(:last-child) {
+    border-bottom: unset;
 }
 
 .header .icon {
@@ -36,7 +46,12 @@
     line-height: 30px;
     color: var(--main-black);
 }
+.header .right {
+    display: flex;
+    align-items: center;
 
+    gap: 48px;
+}
 .header .icons {
     display: flex;
     gap: 16px;

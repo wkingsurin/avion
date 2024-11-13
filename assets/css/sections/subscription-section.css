@@ -75,8 +75,15 @@
 }
 .subscription_v2 .content {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+
+    padding: unset;
+    gap: 0;
+    background-color: transparent;
 }
 .subscription_v2 .benefits {
     display: flex;
@@ -107,4 +114,16 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* about */
+.block_pl100 {
+    padding-left: 100px;
+}
+.features .block_pl100 .description {
+    padding-right: 0;
+}
+.features .block_pl100 .button {
+    color: var(--dark-primary);
+    background-color: var(--light-gray);
 }
