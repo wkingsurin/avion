@@ -119,6 +119,7 @@
 /* about */
 .block_pl100 {
     padding-left: 100px;
+    background-color: transparent !important;
 }
 .features .block_pl100 .description {
     padding-right: 0;

@@ -121,3 +121,8 @@
 .product-features .features-block_absolute .image img {
     object-position: bottom;
 }
+
+/* about_v2 */
+.about_v2 .features .block_gray {
+    background-color: var(--light-gray);
+}

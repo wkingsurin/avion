@@ -320,3 +320,30 @@
     max-width: 704px;
     text-align: center;
 }
+
+/* about_v2 */
+.about_v2 .block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: unset;
+    text-align: left;
+}
+.about_v2 .block h1 {
+    max-width: 704px;
+}
+.about_v2 .block .button {
+    min-width: 192px;
+
+    color: var(--dark-primary);
+    background-color: var(--light-gray);
+}
+.about_v2 .block .button_op15 {
+    min-width: 170px;
+    color: var(--main-white);
+    background-color: rgba(255, 255, 255, .15) !important;
+}
+.about_v2 .block_pl100 .button {
+    background-color: var(--main-white) !important;
+}
